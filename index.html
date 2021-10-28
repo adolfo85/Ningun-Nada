@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adolfo C. De Boeck</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <script src="jquery.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="uk-panel" style="background-color: #d8f8e1;">
+        <!-- Encabezado, contiene los datos del autor y la Obra -->
+        <div class="uk-background-muted uk-section">
+            <div class="uk-container">
+                <h1 id="titulo">Ningún: nada.</h1>
+                <p>Composición: Adolfo C. De Boeck</p>
+                <hr>
+                <p> <center>A Marco Parolo, cuya generosidad crea. A los que no creen.</center></p>
+                
+            </div>
+            <!---->
+
+            <!-- Herramientas, contiene el player y el boton para ocultar/mostrar la guia de interpretacion -->
+            <div class="uk-container">
+                <div class="uk-align-center" align="center">
+
+                    <iframe class="soundcloud" width="100%" height="300" scrolling="no" frameborder="no"
+                        allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1144499233&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    <div style="font-size: 10px; color: #cccccc; line-break: anywhere; word-break: normal; overflow: hidden; 
+                            white-space: nowrap; text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,
+                            Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+                        <a href="https://soundcloud.com/adolfodeboeck85" title="Adolfodeboeck" target="_blank"
+                            style="color: #cccccc; text-decoration: none;">Adolfodeboeck</a> · <a
+                            href="https://soundcloud.com/adolfodeboeck85/ningun-nada" title="Ningún: nada."
+                            target="_blank" style="color: #cccccc; text-decoration: none;">Ningún: nada.</a>
+                    </div>
+                    <a class="uk-button uk-button-default" href="#guia" uk-toggle>Especificaciones generales</a>
+                </div>
+                <!---->
+
+                <!-- Guia de Interpretacion -->
+                <div id="guia" uk-modal>
+                    <div class="uk-modal-dialog uk-modal-body uk-width-4-5">
+                        <div class="uk-container">
+                            <button class="uk-modal-close-outside" type="button" uk-close></button>
+                            <h1 id="titulo">Ningún: nada.</h1>
+                            <p>Adolfo C. De Boeck-2021</p>
+                        </div>
+                        <p>Especificaciones generales:</p>
+                        <p>• Las páginas deben leerse de arriba hacia abajo coordinando el
+                            gráfico espectral con la pista de audio.</p>
+                        <p>• Gráfico espectral: sirve para coordinar el texto, el sonido y las
+                            memorias. No busca representar de forma precisa la espectromorfología del sonido en la
+                            pista.</p>
+                        <p>• La lectura debe realizarse internamente (no en voz alta).</p>
+                        <p>• El signo "v" dentro de un círculo representa la articulación
+                            simultánea de una consonante o vocal y un evento específico del gráfico espectral.</p>
+                        <!-- Imagen Signo V -->
+                        <img data-src="signoV.png" uk-img>
+                        <p>• Memorias: son fragmentos de audio en corchetes verdes que deben
+                            guardarse en la memoria y posteriormente reproducirse internamente. Las memorias se
+                            denominan según su orden de aparición: M1, M2, etc. y se articulan cuando su nombre
+                            aparece en un rectángulo negro.</p>
+                        <!-- Imagen memoria 1-->
+                        <img data-src="memoria1.png" uk-img>
+                        <p>Memoria 1.</p>
+                        <img data-src="memoria1reproducir.png" uk-img>
+                        <p>Reproducción de memoria 1.</p>
+                        <p>• Las intensidades relativas se aplican únicamente al texto,
+                            vocales/consonantes en corchetes y memorias.</p>
+                        <p>• Las líneas verticales indican la duración relativa de un evento:
+                        </p>
+                        <img data-src="duracionrelativa.png" uk-img>
+                        <p>• La poesía no está pensada como texto independiente, sin embargo,
+                            se transcribe a continuación para facilitar la lectura del manuscrito. No se considera
+                            la distribución espacial en la página ni las consonantes entre corchetes.</p>
+                        <p>
+                            Todavía <br>
+                            ¿están ahí?<br>
+                            Apenas spora el aleteo:<br>
+                            Un parpadear<br>
+                            Otra cosa<br>
+                            Algo que se pretende un cielo<br>
+                            pero<br>
+                            que<br>
+                            cae<br>
+                            y rueda<br>
+                            sobre un azúl<br>
+                            endurecido<br>
+                            por el frío<br>
+                            Llueve<br>
+                            una chispa sobre un fondo vacío<br>
+                            blanco.<br>
+                            Después:<br>
+                            un golpe que se parece a la nada<br>
+                            ¿Qué dice la lluvia ante la última gota?<br>
+                            Cae, sí;<br>
+                            como una mueca cansada<br>
+                            Cae, sí; en algún lugar y en algún momento.<br>
+                            ¿Sabrán detener la inercia con las manos desnudas?<br>
+                            Apenas:<br>
+                            un grito del chajá<br>
+                            un canto del viento<br>
+                            una mueca<br>
+                            abierta<br>
+                            en la ausencia<br>
+                            que grita, que corre, que salta<br>
+                            ¿Qué habrá cuando no haya canto?<br>
+                            Lenta<br>
+                            Figura<br>
+                            Sube<br>
+                            Alza<br>
+                            Aparta<br>
+                            Algo<br>
+                            de sí.<br>
+                            Va,<br>
+                            cae,<br>
+                            resuelve<br>
+                            la intimidad<br>
+                            Un aire<br>
+                            caliente<br>
+                            que late<br>
+                            Como la inquietud de<br>
+                            algún otro animal<br>
+                            Sale,<br>
+                            se va<br>
+                            Se pierde en<br>
+                            el reflejo debilitado del día<br>
+                            que ciñe el rostro<br>
+                            y el gesto<br>
+                            que sigue:<br>
+                            como un listado<br>
+                            de ver y decir<br>
+                            Un astuto mal entendido<br>
+                            Pareciera un decir anónimo<br>
+                            ante la vista del sol<br>
+                            un pensar que vaga en la ceniza<br>
+                            ¿Dónde van los héroes cuando no hay guerras?<br>
+                            Desde el Oeste apenas un redoble,<br>
+                            un sentir forzado por el empuje.<br>
+                            Fiebre desencantada que se tuerce<br>
+                            ante el viento,<br>
+                            ante la mística sincronía que<br>
+                            también tuerce el paso<br>
+                            como si fuera<br>
+                            el cauce de un río<br>
+                            el comienzo de un recuerdo<br>
+                            un origen,<br>
+                            un mal en todas las cosas.<br>
+                            Entonces:<br>
+                            Mirar atrás para enfrentar otras cosas,<br>
+                            a uno mismo<br>
+                            Mirar atrás y agarra los pecados<br>
+                            con las manos desnudas<br>
+                            con la garganta arenosa<br>
+                            en el parco vuelo de<br>
+                            la última voz del día.<br>
+                            Un ayer que busca, como un hijo,<br>
+                            ser reconocido.<br>
+                            Una impronta arqueada<br>
+                            por el tiempo<br>
+                            y<br>
+                            en aquella valentía<br>
+                            no hay medalla alguna<br>
+                            ni el repique de las palmas<br>
+                            ni su voz entrecortada<br>
+                            abriendo el día:<br>
+                            Sólo el latido de un impulso enfermo,<br>
+                            que mira sin ver<br>
+                            y se vuelve sobre un mundo encerrado<br>
+                            en una caja de cristal<br>
+                            El viento, entonces, será viento<br>
+                            cuando ya no queden historias que contar:<br>
+                            será la única cara del desierto<br>
+                            los mil nudos en la montaña<br>
+                            una ligera esperanza que se asoma<br>
+                            buscando reconocer:<br>
+                            un origen,<br>
+                            un mendigo<br>
+                            un final<br>
+                            un origen un mendigo un final<br>
+                            único hilo que nos separa<br>
+                            y condena a mirar<br>
+                            nuestras mil caras del ayer<br>
+                            ¿Cómo?<br>
+                            ¿Cómo volver al centro del negro?<br>
+                            Una tarde de preguntas agotadas<br>
+                            y brazos que no caen<br>
+                            es tan difícil no sentir la estafa<br>
+                            Continúa el rito ausente en el diálogo<br>
+                            Principio de la ausencia<br>
+                            que da un nombre<br>
+                            Si pudiera volver a empezar...<br>
+                            diría que no.<br>
+                            Se levanta<br>
+                            busca en otros ojos<br>
+                            se recupera<br>
+                            del terror de la<br>
+                            palabra<br>
+                            eso:<br>
+                            Anidado en el<br>
+                            centro<br>
+                            del pecho<br>
+                            en plena espera<br>
+                            Eso:<br>
+                            palabra<br>
+                            dosificada<br>
+                            como el remedio<br>
+                            de la fe<br>
+                            ¿Cuántos rostros alza la brisa?<br>
+                            Y ese trayecto de ida<br>
+                            va, viene<br>
+                            Sana constumbre de mirar al cenit y ver<br>
+                            como siempre<br>
+                            un punto grande y cegador<br>
+                            Ritmo puro en el salvaje orden libre<br>
+                            una estela sin comienzo sin final<br>
+                            un pendular de estrella<br>
+                            ¿Qué más que la mueca rígida en invierno?<br>
+                            Más todavía<br>
+                            la nitidez del sol en verano?<br>
+                            Un pequeño latir afiebrado<br>
+                            se aferra a una verdad<br>
+                            ¿Cuánta verdad?<br>
+                            Un manicomio de pájaros y flores<br>
+                            ¿Cuándo dejamos de huir?<br>
+                            Solía decir ella en algún momento<br>
+                            de aquí a un tiempo<br>
+                            Plantarse frente al vértido imposible<br>
+                            de la rueda<br>
+                            en pleno giro<br>
+                            en la plenitud<br>
+                            del círculo<br>
+                            que no llega a ningún lado.<br>
+                            Quisiera ser algo de aquel niño que<br>
+                            enterró sus rodillas<br>
+                            en la arena hundida<br>
+                            Doliera volver atrás y finalmente no ver<br>
+                            nada.<br>
+                            Buscar un fantasma fiel<br>
+                            como la sombra<br>
+                            del cuerpo,<br>
+                            que embrutece la tierra<br>
+                            y así: doliera dispersar el puño cerrado en mil preguntas<br>
+                            llenar la oscuridad que cubre el avance<br>
+                            Casi...<br>
+                            como el caer<br>
+                            desenfrenado<br>
+                            de una hoja<br>
+                            en pleno goce<br>
+                            del viento<br>
+                            ¿y después?<br>
+                            ¿un suelo?<br></p>
+
+
+                    </div>
+                </div>
+                <hr>
+            </div>
+            <!---->
+            <!-- Imagenes -->
+            <div class="uk-background-muted">
+                <div class="uk-container">
+                    <img data-src="p.1.jpg" width="100%" uk-img>
+                    <img data-src="p.2.jpg" width="100%" uk-img>
+                    <img data-src="p.3.jpg" width="100%" uk-img>
+                    <img data-src="p.4.jpg" width="100%" uk-img>
+                    <img data-src="p.5.jpg" width="100%" uk-img>
+                    <img data-src="p.6.jpg" width="100%" uk-img>
+                    <img data-src="p.7.jpg" width="100%" uk-img>
+                    <img data-src="p.8.jpg" width="100%" uk-img>
+                    <img data-src="p.9.jpg" width="100%" uk-img>
+                    <img data-src="p.10.jpg" width="100%" uk-img>
+                    <img data-src="p.11.jpg" width="100%" uk-img>
+                    <img data-src="p.12.jpg" width="100%" uk-img>
+                    <img data-src="p.13.jpg" width="100%" uk-img>
+                    <img data-src="p.14.jpg" width="100%" uk-img>
+                    <img data-src="p.15.jpg" width="100%" uk-img>
+                    <img data-src="p.16.jpg" width="100%" uk-img>
+                    <img data-src="p.17.jpg" width="100%" uk-img>
+                    <img data-src="p.18.jpg" width="100%" uk-img>
+                    <img data-src="p.19.jpg" width="100%" uk-img>
+                    <img data-src="p.20.jpg" width="100%" uk-img>
+                    <img data-src="p.21.jpg" width="100%" uk-img>
+                    <img data-src="p.22.jpg" width="100%" uk-img>
+                    <img data-src="p.23.jpg" width="100%" uk-img>
+                    <img data-src="p.24.jpg" width="100%" uk-img>
+                    <img data-src="p.25.jpg" width="100%" uk-img>
+                    <img data-src="p.26.jpg" width="100%" uk-img>
+                    <hr>
+                </div>
+            </div>
+            <!---->
+
+            <!-- Licencia -->
+            <div class="uk-background-muted">
+                <div class="uk-container uk-text-small uk-text-center">
+                    <p>Esta obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual4.0
+                        Internacional Código: 2110199563656.</p>
+                    <p>Contacto: adolfodeboeck@gmail.com</p>
+                    <hr>
+                </div>
+            </div>
+            <!---->
+        </div>
+    </div>
+</body>
+
+</html>

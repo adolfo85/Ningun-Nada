@@ -1,0 +1,35 @@
+body {
+  background-color: #708090;
+}
+.portada {
+  width: 50%;
+  height: 90vh;
+}
+
+.soundcloud {
+  width: 50%;
+  height: 20vh;
+}
+
+* {
+  font-family: "Zen Antique Soft", serif;
+}
+
+#titulo {
+	font-family: "Zen Antique Soft", serif;
+}
+
+#autor {
+  font-size: 17px;
+}
+
+#footer {
+  color: #f5f5f5;
+  background: #2f4f4f;
+  height: 57px;
+  margin: 1em auto;
+  padding: 0, 5em;
+  border-radius: 1em;
+}
+
+
